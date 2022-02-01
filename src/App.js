@@ -8,10 +8,10 @@ const App = () => {
     setUsersList([...usersList, listObj])
   }
   return (
-    <div className="App">
+    <>
         <AddUsers OnLiftingUsersListUp={addUserHandler}/>
         <UsersList users={usersList}/>
-    </div>
+    </>
   );
 }
 
